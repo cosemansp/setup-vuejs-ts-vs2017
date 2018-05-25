@@ -21,6 +21,12 @@ module.exports = {
         ],
         use: "vue-template-compiler-loader",
       }, ]
+    },
+    devServer: {
+      https: {
+        key: '...', // path to key file,
+        cert: '...', // path to pem file
+      }
     }
   },
 

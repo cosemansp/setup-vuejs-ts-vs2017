@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "info": "node --version",
-    "serve": "vue-cli-service serve --open --https",
+    "serve": "vue-cli-service serve --open",
+    "serve:https": "vue-cli-service serve --open --https --cert ./cert.pem --key ./key.pem",
     "build": "vue-cli-service build --mode dev",
     "build:prod": "vue-cli-service build",
     "lint": "vue-cli-service lint",
