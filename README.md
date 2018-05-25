@@ -8,3 +8,28 @@
 * [x] Full TS support
 * [x] .vue file with separated .ts source file (HelloWorld.vue)
 * [x] Component based on .ts file and .html file (Sample.ts)
+
+## Getting started
+
+```bash
+# install all dependencies
+npm install
+
+# run developent server
+npm run serve
+
+# build for production
+npm run build:prod
+
+# run unit tests
+npm run test
+```
+
+## Build server commands
+
+```bash
+npm install
+npm lint
+npm test:ci
+npm build:prod
+```
