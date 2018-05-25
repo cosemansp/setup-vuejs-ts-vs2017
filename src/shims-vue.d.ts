@@ -13,3 +13,11 @@ declare module '*.html' {
   const content: object;
   export default content;
 }
+
+/*
+ * Add here your global variable
+ */
+interface Window {
+  Vue: any;
+  MyGlobal: string;
+}
