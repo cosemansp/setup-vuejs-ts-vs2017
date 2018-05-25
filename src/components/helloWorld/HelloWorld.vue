@@ -7,18 +7,6 @@
 </template>
 
 <script src="./helloWorld.ts" lang="ts">
-// import { Component, Prop, Vue } from 'vue-property-decorator';
-
-// @Component
-// export default class HelloWorld extends Vue {
-//   @Prop() private msg!: string;
-
-//   title = 'just a title';
-
-//   static onClick(event: any) {
-//     // console.log('onClick', event);
-//   }
-// }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

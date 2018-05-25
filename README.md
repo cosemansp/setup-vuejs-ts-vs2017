@@ -3,6 +3,7 @@
 ## Features
 
 * [x] Basic setup with @vue/cli
+* [x] Cross-env to support windows
 * [x] Prettier config (including disable eslint rules)
 * [x] Full TS support
 * [x] .vue file with separated .ts source file (HelloWorld.vue)

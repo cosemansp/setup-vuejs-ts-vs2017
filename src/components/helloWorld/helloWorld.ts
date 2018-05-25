@@ -13,5 +13,6 @@ export default class HelloWorld extends Vue {
 
   onClick(event: any) {
     console.log('onClick', event);
+    debugger;
   }
 }

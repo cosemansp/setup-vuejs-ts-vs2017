@@ -5,6 +5,8 @@ import template from './sample.html';
     To make it possible use the template as an separated
     html file you must add 'the vue-template-compiler-loader'
     to webpack
+
+    REMARK: component unit testing is not working with this approche
  */
 @Component({
   ...template,

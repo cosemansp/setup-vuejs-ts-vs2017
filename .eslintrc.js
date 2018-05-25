@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     // rules override
     'class-methods-use-this': [0],
+    'import/no-extraneous-dependencies': [0],
 
     // production only rules
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
